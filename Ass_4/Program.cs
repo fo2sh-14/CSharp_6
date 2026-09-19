@@ -48,7 +48,7 @@
             Console.WriteLine(genre_2);
             #endregion
 
-            #region 8st answer
+            #region 9st answer
             Genre genre_5;
             string genreText = "Mystery";
             if (Enum.TryParse(genreText, out genre_5))
