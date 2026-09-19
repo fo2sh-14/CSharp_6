@@ -27,12 +27,9 @@
             Console.WriteLine("---------------");
 
             #region 5st answer
-            Genre genre = new Genre();
-            for (int i = 0; i < 3; i++)
-            {
-                genre = (Genre)i;
-                Console.WriteLine(genre);
-            }
+            Console.WriteLine("Fiction: " + (int)Genre.Fiction);
+            Console.WriteLine("NonFiction: " + (int)Genre.NonFiction);
+            Console.WriteLine("Science: " + (int)Genre.Science);
             #endregion
 
         }
