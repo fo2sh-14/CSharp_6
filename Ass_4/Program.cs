@@ -20,6 +20,10 @@
             Console.WriteLine(book_1.Title);
             #endregion
 
+            #region 4st answer
+            Console.WriteLine(book_1.genre);
+            #endregion
+
         }
     }
 }
