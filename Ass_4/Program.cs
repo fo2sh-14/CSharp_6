@@ -32,6 +32,11 @@
             Console.WriteLine("Science: " + (int)Genre.Science);
             #endregion
 
+            #region 6st answer
+            int genreNumber = 1;
+            Console.WriteLine((Genre)genreNumber);
+            #endregion
+
         }
     }
 }
