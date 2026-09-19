@@ -15,6 +15,11 @@
             // Yes compile, because field copiesInStock is internal ==> we can use in the same project 
             #endregion
 
+            #region 3st answer
+            book_1.Title = "C#";
+            Console.WriteLine(book_1.Title);
+            #endregion
+
         }
     }
 }
