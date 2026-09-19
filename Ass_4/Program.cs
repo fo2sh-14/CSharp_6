@@ -6,8 +6,13 @@
         {
             #region 1st answer
             Book book_1 = new Book();
-            Console.WriteLine(book_1.password); // error 
+            //Console.WriteLine(book_1.password); // error 
             // Because private scope in class book only (not main)
+            #endregion
+
+            #region 2st answer
+            Console.WriteLine(book_1.copiesInStock);
+            // Yes compile, because field copiesInStock is internal ==> we can use in the same project 
             #endregion
 
         }
