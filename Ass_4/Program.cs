@@ -24,6 +24,17 @@
             Console.WriteLine(book_1.genre);
             #endregion
 
+            Console.WriteLine("---------------");
+
+            #region 5st answer
+            Genre genre = new Genre();
+            for (int i = 0; i < 3; i++)
+            {
+                genre = (Genre)i;
+                Console.WriteLine(genre);
+            }
+            #endregion
+
         }
     }
 }
